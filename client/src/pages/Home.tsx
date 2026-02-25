@@ -81,9 +81,8 @@ export default function Home() {
       <div id="prog"></div>
 
       <nav id="navbar">
-        <div className="nav-logo flex items-center gap-2 text-xl font-bold font-serif text-[var(--navy)]">
-          <Leaf className="text-[var(--red)]" />
-          CSNE
+        <div className="nav-logo flex items-center">
+          <img src="/images/logo.png" alt="Cardiovascular Specialists of New England" className="h-12 w-auto" />
         </div>
         <ul className="nav-links">
           <li><a href="#s1">Mission</a></li>
@@ -114,7 +113,7 @@ export default function Home() {
         </div>
         <div className="hero-r">
           <div className="hero-img-frame">
-            <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=900&q=80" alt="Cardiology care team" />
+            <img src="/images/hero-active-couple.png" alt="Active healthy senior couple" className="w-full h-full object-cover" />
           </div>
           <div className="hero-badge">
             <div className="badge-icon">🫀</div>
@@ -293,9 +292,8 @@ export default function Home() {
 
       {/* CTA */}
       <section id="s8">
-        <div className="cta-logo flex items-center justify-center gap-2 text-2xl font-bold font-serif text-white">
-          <Leaf className="text-[var(--sky)]" />
-          CSNE
+        <div className="cta-logo flex items-center justify-center">
+          <img src="/images/logo.png" alt="CSNE Logo" className="h-14 w-auto brightness-0 invert opacity-90" />
         </div>
         <div className="cta-eyebrow">Ready to Experience the Difference?</div>
         <h2 className="cta-h2">Take the first step toward<br/><em>a healthier heart</em></h2>
